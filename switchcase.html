@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="data">
+    <button class="btn btn-primary" onclick="switchcase()">switch</button>
+  
+    
+</body>
+</html>
+
+
+<script>
+
+   function switchcase(){       
+           
+        var sw=parseInt(document.getElementById("data").value);
+
+        switch(sw){
+
+            case 1:
+
+            var a=70;
+            var b=8;
+            var c=a+b;
+            alert(c);
+            break;
+
+            case 2:
+
+            var g=2;
+            var j=8;
+            var k=g*j;
+            alert(k);
+            break;
+             
+            swiping
+            case 3:
+                  
+            var a=20;
+            var b=40;
+            var c=b; 
+            b=a; //20
+            a=c; //40
+            alert(a); 
+            break;
+            
+           case 4:
+
+           var arr=[
+               [44,55],
+               [23,45],
+               [14,56],
+           ]
+           document.write(arr[0][1]);
+           break;
+            
+        }
+        
+   }
+</script>

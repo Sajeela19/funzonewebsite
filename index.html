@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="search" placeholder="search value"/>
+    <button onclick="searching()">search</button>
+</body>
+</html>
+
+
+<script>
+    function searching(){
+        var search=document.getElementById("search").value;
+        var counter=0;
+        var check=0;
+
+        var batch=["1901a","1901b","1901c","1901a"];
+        for(var i=0;i<=3;i++){
+            if(search==batch[i]){
+                check=counter+1;
+                check+=1;
+            }
+            
+        
+    }
+
+    if(check>0)
+    {
+        document.write("found");
+        document.write(check +"times");
+    }
+}
+</script>
